@@ -1,0 +1,226 @@
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    background-image: url("background.png");
+}
+  
+.sender-column {
+    text-align: right;
+}
+  
+h1 {
+    font-size: 1.5em;
+}
+  
+.topright {
+    position: absolute;
+    top: 5px;
+    right: 2px;
+    font-size: 18px;
+    font-family: "Archivo";
+    color: #03225B;
+}
+
+.topleft {
+    position: absolute;
+    top: -10px;
+    left: 16px;
+    font-size: 15px;
+    font-family: "Archivo";
+    color: #000000;
+}
+
+.topcenter1 {
+    left: 3px;
+    position: absolute;
+    text-align:center;
+    top: 0px;
+    width: 100%;
+    font-family: "Archivo";
+    color: #03225B;
+    font-size: 22px;
+}
+
+.topcenter2 {
+    left: 7px;
+    position: absolute;
+    text-align:center;
+    top: 32px;
+    width: 100%;
+    font-size: 21px;
+    font-family: "Archivo";
+    color: #FFF1F8;
+}
+
+.topcenter3 {
+    left: 5px;
+    position:absolute;
+    text-align:center;
+    top: 64px;
+    width: 100%;
+    font-size: 18px;
+    font-family: "Archivo";
+    color: #FFF1F8;
+}
+
+.middleleft {
+    position: absolute;
+    top: 125px;
+    left: 35px;
+}
+
+.middlecenter {
+    left: 4px;
+    position: absolute;
+    text-align:center;
+    top: 125px;
+    width: 100%;
+}
+
+.middleright {
+    position: absolute;
+    top: 125px;
+    right: 16px;
+}
+  
+h2 {
+    font-size: 1.3em;
+}
+  
+p, ul,ol,dl,address {
+    font-size: 1.1em;
+}
+  
+p, li, dd, dt, address {
+    line-height: 1.5;
+}
+
+div.rcorners1 {
+    position: relative;
+    top: 185px;
+    left: 10px;
+    border-radius: 25px;
+    background: #ceceda88;
+    padding: 20px; 
+    width: 439px;
+    height: 132px;
+    outline-style: solid;
+    outline-color: #03225B;
+}
+
+span.percentage {
+    position: relative;
+    transform: translate(-50%,-50%);
+    top: -3px;
+    left: 75px;
+    font-size: 13px;
+    font-family: "Archivo";
+    color: #09101D;
+}
+
+span.times {
+    position: relative;
+    transform: translate(-50%,-50%);
+    top: -4px;
+    left: 70px;
+    font-size: 15px;
+    font-family: "Archivo";
+    color: #002D82;
+}
+
+span.images {
+    position: relative;
+    transform: translate(-50%,-50%);
+    top: -2px;
+    left: 65px;
+    font-size: 15px;
+    font-family: "Archivo";
+    color: #002D82;
+}
+
+span.actual {
+    position: relative;
+    transform: translate(-50%,-50%);
+    top: 8px;
+    left: -6px;
+    font-size: 15px;
+    font-family: "Archivo";
+    color: #0A2048;
+}
+
+span.feels {
+    position: relative;
+    transform: translate(-50%,-50%);
+    top: 12px;
+    left: -6px;
+    font-size: 15px;
+    font-family: "Archivo";
+    color: #002D82;
+}
+
+span {
+    position: relative;
+    transform: translate(-50%,-50%);
+    top: -10px;
+    left: 90px;
+    font-size: 18px;
+    font-family: "Archivo";
+    color: #400441;
+}
+
+span.rainfall {
+    position: relative;
+    transform: translate(-50%,-50%);
+    top: -10px;
+    left: 0px;
+    font-size: 18px;
+    font-family: "Archivo";
+    color: #400441;
+}
+
+span.rain {
+    position: relative;
+    transform: translate(-50%,-50%);
+    top: -6px;
+    left: 50px;
+    font-size: 14px;
+    font-family: "Archivo";
+    color: #002D82;
+}
+
+span.graph {
+    position: relative;
+    transform: translate(-50%,-50%);
+    top: -4px;
+    left: -5px;
+    font-size: 14px;
+    font-family: "Archivo";
+    color: #002D82;
+}
+
+div.map {
+    left: 10px;
+    border-radius: 25px;
+    position: relative;
+    text-align:center;
+    top: 200px;
+    outline-style: solid;
+    outline-color: #03225B;
+    padding: 20px; 
+    width: 439px;
+    background: #ceceda88;
+    height: 340px;
+}
+
+div.rcorners2 {
+    position: relative;
+    top: 215px;
+    left: 10px;
+    border-radius: 25px;
+    background: #ceceda88;
+    padding: 20px; 
+    width: 439px;
+    height: 110px;
+    outline-style: solid;
+    outline-color: #03225B;
+}
